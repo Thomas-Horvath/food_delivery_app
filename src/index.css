@@ -4,6 +4,7 @@
   --font-color: #49557e;
   --tomato: tomato;
   --light-orange: #fff4f2;
+  --white: #fefefe;
 }
 
 
@@ -44,4 +45,13 @@ a {
 }
 .btn:hover {
   background-color: var(--light-orange);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
